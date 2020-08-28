@@ -1,9 +1,6 @@
 from time import sleep
 import os
-second=0
-minute=0
-hour=0
-day=0
+second,day,hour,minute=0,0,0,0
 while True:
     os.system('cls'if os.name=='nt'else'clear')
     print(f'Day: {day}\nHour: {hour}\nMinute: {minute}\nSecond: {second}')
